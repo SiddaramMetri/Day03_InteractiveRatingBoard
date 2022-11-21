@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Contants">
+        <h1>Student Satisfaction Survey</h1>
+        <h3>Dear Student,<br></h3>
+        <h4>Please File the all Details.</h4>
+        <form method="post" action="#">
+            <label>1. How likely are you to recommend this school to your friends and family? Please provide the reason for your response.</label><br><br>
+            <span>
+                <input type="radio" name="rating1" value="1"> 1
+                <input type="radio" name="rating1" value="2"> 2
+                <input type="radio" name="rating1" value="3"> 3
+                <input type="radio" name="rating1" value="4"> 4
+                <input type="radio" name="rating1" value="5"> 5
+            </span>
+            <hr>
+            <br>
+            <label>2.  How satisfied are you with the school's transportation system?</label><br><br>
+            <br>
+            <span>
+                <input type="radio" name="rating2" value="1">1
+                <input type="radio" name="rating2" value="2">2
+                <input type="radio" name="rating2" value="3">3
+                <input type="radio" name="rating2" value="4">4
+                <input type="radio" name="rating2" value="5">5
+            </span>
+            <hr>
+            <br>
+            <label>3. Are you satisfied with the quality of teaching?</label><br><br />
+            <div style="color:grey">
+                <span style="float:left;">
+                    POOR
+                </span>
+                <span style="float:right">
+                    BEST
+                </span>
+            </div>
+            <span>
+                <label value="1">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="2">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="3">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="4">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="5">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="6">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="7">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="8">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="9">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="10">
+                    <input type="radio" name="rating" value="10">
+                    <label style="width:100%;"></label>
+                </label>
+            </span>
+            <br>
+            <br>
+            <hr>
+            <label>4. Any Other suggestions:</label><br /><br />
+            <textarea cols="60" name="commentText" rows="5" ></textarea><br>
+            <br>
+            <br>
+            <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review">
+        </form>
+    </div>
+</body>
+</html>
